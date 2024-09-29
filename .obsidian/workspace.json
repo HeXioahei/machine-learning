@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "d55d826094b52a01",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2df889cb844760c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b963be46b6cddfdf",
+            "type": "leaf",
+            "state": {
+              "type": "pkmer-downloader",
+              "state": {}
+            }
+          },
+          {
+            "id": "c0fffb1ee558184d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/矩阵力量/03_向量范数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e29c5a61a5e0a9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a7bf1e6cdfc0ce8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9fbf4587dde4b91",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "97082fa08aeb29fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5159f1a9e328263e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 206.5
+  },
+  "right": {
+    "id": "ab30c4b9d8ea49bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b49a65ede19c330",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e8a9036fcf8bedd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/矩阵力量/03_向量范数.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2b361739230af6f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/矩阵力量/03_向量范数.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4b476ccc306aa324",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "023678a275818053",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/矩阵力量/03_向量范数.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "c0fffb1ee558184d",
+  "lastOpenFiles": [
+    "笔记/矩阵力量/05_矩阵乘法.md",
+    "图片/矩阵力量/矩阵乘法/所有元素求和.png",
+    "图片/矩阵力量/矩阵乘法/每行元素求和与平均值.png",
+    "图片/矩阵力量/矩阵乘法/去均值.png",
+    "图片/矩阵力量/矩阵乘法/求质心2.png",
+    "图片/矩阵力量/矩阵乘法/求质心.png",
+    "图片/矩阵力量/矩阵乘法/每列元素求和.png",
+    "图片/矩阵力量/矩阵乘法/张量积的两种展开.png",
+    "图片/矩阵力量/矩阵乘法/张量积.png",
+    "图片/矩阵力量/矩阵乘法",
+    "图片/矩阵力量/矩阵乘法/求协方差.png",
+    "图片/矩阵力量/矩阵乘法/求方差.png",
+    "笔记/矩阵力量/04_矩阵.md",
+    "图片/矩阵力量/向量范数",
+    "图片/矩阵力量/未命名.canvas",
+    "图片/矩阵力量/矩阵",
+    "笔记",
+    "图片/矩阵力量",
+    "图片/机器学习",
+    "笔记/矩阵力量/03_向量范数.md",
+    "笔记/机器学习/03_多元线性回归.md",
+    "笔记/矩阵力量",
+    "笔记/机器学习/02_回归分析.md",
+    "2024-09-22.md",
+    "1.cpp",
+    "未命名.canvas",
+    "欢迎.md",
+    "Bk7_Ch02_01 1.ipynb",
+    "Bk7_Ch02_01.ipynb",
+    "创建链接.md",
+    "笔记/数学要素/笔记1.md",
+    "笔记/机器学习/01_回归.md",
+    "未命名 1.canvas",
+    "2024-09-22.canvas",
+    "未命名 2.canvas",
+    "未命名 3.canvas"
+  ]
+}
