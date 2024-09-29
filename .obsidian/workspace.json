@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b963be46b6cddfdf",
-            "type": "leaf",
-            "state": {
-              "type": "pkmer-downloader",
-              "state": {}
-            }
-          },
-          {
             "id": "c0fffb1ee558184d",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,13 +86,13 @@
               "type": "backlink",
               "state": {
                 "file": "笔记/矩阵力量/03_向量范数.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -160,8 +151,8 @@
   "active": "c0fffb1ee558184d",
   "lastOpenFiles": [
     "Pasted image 20240929211816.png",
-    "().md",
     "笔记/矩阵力量/03_向量范数.md",
+    "().md",
     "笔记/矩阵力量/05_矩阵乘法.md",
     "笔记/矩阵力量/04_矩阵.md",
     "obsidian-image-auto-upload-plugin/src/lang/locale/zh-cn.ts",
@@ -184,7 +175,6 @@
     "图片/矩阵力量/矩阵乘法/每列元素求和.png",
     "图片/矩阵力量/矩阵乘法/张量积的两种展开.png",
     "图片/矩阵力量/矩阵乘法/张量积.png",
-    "图片/矩阵力量/矩阵乘法/求协方差.png",
     "图片/矩阵力量/未命名.canvas",
     "笔记/机器学习/03_多元线性回归.md",
     "笔记/机器学习/02_回归分析.md",
