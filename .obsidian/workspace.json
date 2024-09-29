@@ -11,11 +11,10 @@
             "id": "c0fffb1ee558184d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "笔记/矩阵力量/03_向量范数.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/矩阵力量/03_向量范数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/矩阵力量/03_向量范数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +121,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/矩阵力量/03_向量范数.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "47a8f8e356dfba72",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,11 +153,11 @@
   },
   "active": "c0fffb1ee558184d",
   "lastOpenFiles": [
+    "笔记/矩阵力量/03_向量范数.md",
     "新建 文本文档.txt",
     "新建文件夹",
     "Pasted image 20240929220901.png",
     "Pasted image 20240929211816.png",
-    "笔记/矩阵力量/03_向量范数.md",
     "().md",
     "笔记/矩阵力量/05_矩阵乘法.md",
     "笔记/矩阵力量/04_矩阵.md",
@@ -166,7 +169,6 @@
     "obsidian-image-auto-upload-plugin/src/lang/locale/pt.ts",
     "obsidian-image-auto-upload-plugin/src/lang/locale/pl.ts",
     "obsidian-image-auto-upload-plugin/src/lang/locale/pt-br.ts",
-    "obsidian-image-auto-upload-plugin/src/lang/locale/nl.ts",
     "obsidian-image-auto-upload-plugin/src/lang/README.md",
     "图片/矩阵力量/向量范数/高斯核函数.png",
     "图片/矩阵力量/矩阵乘法/所有元素求和.png",
