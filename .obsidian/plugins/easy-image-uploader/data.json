@@ -1,5 +1,5 @@
 {
-  "uploadByClipSwitch": true,
+  "uploadByClipSwitch": false,
   "uploader": "GitHub",
   "uploadServer": "http://127.0.0.1:36677/upload",
   "deleteServer": "http://127.0.0.1:36677/delete",
@@ -22,7 +22,7 @@
     "branch": "master",
     "token": "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",
     "path": "pics/",
-    "customUrl": "https://github.com/HeXioahei/image/"
+    "customUrl": "https://github.com/HeXioahei/image/tree/master/"
   },
   "giteeSetting": {
     "repo": "sancijun/pictures",
