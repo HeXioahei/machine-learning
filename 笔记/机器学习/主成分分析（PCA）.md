@@ -17,6 +17,8 @@
 
 这就需要线性代数来发挥大作用了。将数据用矩阵来表示，设为D，其左乘一些特殊的矩阵，其描绘的图形便可以实现一些奇妙的变换，比如左乘对角矩阵S可以实现拉伸，左乘协方差矩阵R可以实现旋转。
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030008072.png)
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030035993.png)
+
 
 
 从上面的步骤我们可以知道，pca最重要的就是旋转找到新坐标系，那么其实就是求出协方差矩阵R。
