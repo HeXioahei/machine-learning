@@ -40,3 +40,5 @@
 
 去均值后，根据计算公式可以进一步推导出协方差矩阵的计算公式为：
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030027115.png)
+进一步推导出我们手上数据的协方差：
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030037117.png)
