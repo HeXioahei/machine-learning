@@ -90,3 +90,5 @@ PCA与标准差椭圆/置信椭圆
 
 类的方法
 * `fit_transform()`：将模型与X进行训练，并对X进行降维处理，返回的是降维后的数据
+
+代码实现：[machine-learning/代码实现/pca.ipynb at master · HeXioahei/machine-learning (github.com)](https://github.com/HeXioahei/machine-learning/blob/master/%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/pca.ipynb)
