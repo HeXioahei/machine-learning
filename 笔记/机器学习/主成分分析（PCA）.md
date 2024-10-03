@@ -71,3 +71,14 @@ L的作用就是对数据进行标准化处理，有时候某些特征的方差�
 PCA的缺点：离群点对结果的影响较大。
 
 PCA与标准差椭圆/置信椭圆
+
+代码：
+`sklearn.decomposition.PCA(n_components=None, copy=True, whiten=False, svd_solver='auto')`
+* `n_components=`
+	* 2：返回前2个主成分
+	* 0.98：返回满足主成分差累积贡献率达到98%的主成分
+	* None：返回所有主成分
+	* 'mle'：将自动选取主成分个数n，使得满足所要求的方差百分比
+* `copy`：是否把原本的数据复制一份
+* `whiten`：白化，即对PCA之后的数据进行标准化处理
+* ``
