@@ -15,7 +15,7 @@
 
 最后，存储涉及到的信息：新坐标系的原点、新坐标系的旋转角度、新坐标点（也即投影点在新坐标系中的表示）。
 
-这就需要线性代数来发挥大作用了。将数据用矩阵来表示，设为D，其左乘一些特殊的矩阵，其描绘的图形便可以实现一些奇妙的变换，比如左乘对角矩阵S可以实现拉伸，左乘一个特殊矩阵R可以实现旋转。
+这就需要线性代数来发挥大作用了。将数据用矩阵来表示，设为D，其左乘一些特殊的矩阵，其描绘的图形便可以实现一些奇妙的变换，比如左乘对角矩阵S可以实现拉伸，左乘一个正交矩阵R可以实现旋转。
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030008072.png)
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030035993.png)
 
@@ -42,12 +42,13 @@
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030027115.png)
 进一步推导出我们手上数据的协方差：
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030037117.png)
+
 协方差的特征向量：
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031025794.png)        --->          ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031026517.png)     ---->![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031027928.png)   --->   ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031028427.png)
 
 
 
-R就是特征向量的组合结果，两个特征向量分别对应着新坐标系横轴和纵轴的方向，也就是分别对应两个主成分。L由特征值组合而成，放映的是拉伸程度。
+这也就是对协方差矩阵进行特征值分解。R就是特征向量的组合结果，两个特征向量分别对应着新坐标系横轴和纵轴的方向，也就是分别对应两个主成分。L由特征值组合而成，放映的是拉伸程度。
 
 所以，新坐标系的基底就是协方差矩阵的特征向量，它们构成R；新数据在基底上的方差就是协方差矩阵的特征值，它们构成L。L就是在R这组基（新坐标系）下的协方差。
 
