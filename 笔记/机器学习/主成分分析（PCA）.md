@@ -81,4 +81,12 @@ PCA与标准差椭圆/置信椭圆
 	* 'mle'：将自动选取主成分个数n，使得满足所要求的方差百分比
 * `copy`：是否把原本的数据复制一份
 * `whiten`：白化，即对PCA之后的数据进行标准化处理
-* ``
+* `svd_solver`：奇异值分解SVD的方法，除了'auto'，还有'full'、'arpack‘、'randomized'三种
+
+类的属性
+* `components_`：返回主成分系数矩阵
+* `explained_variance_`：降维后的主成分的方差值
+* `explained_variance_ratio_`：降维后的主成分的方差值占总方差值得比例（主成分方差贡献率）
+
+类的方法
+* `fit_transform()`：将模型与X进行训练，并对X进行降维处理，返回的是降维后的数据
