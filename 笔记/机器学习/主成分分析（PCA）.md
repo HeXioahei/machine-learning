@@ -42,3 +42,8 @@
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030027115.png)
 进一步推导出我们手上数据的协方差：
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410030037117.png)
+协方差的特征向量：
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031025794.png)        --->          ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031026517.png)     ---->![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031027928.png)   --->   ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410031028427.png)
+
+
+
