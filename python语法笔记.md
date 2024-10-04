@@ -256,9 +256,11 @@ Do humen have tails? False
 
 ###### 文件路径常识（对于Windows系统来说）（相对路径）
 
-<img title="" src="file:///d:/Users/Lenovo/Documents/Tencent%20Files/3078158560/Image/C2C/504488b63d28de419b366fe2ce1e869a.jpg" alt="504488b63d28de419b366fe2ce1e869a" style="zoom:200%;">
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042215370.png)
 
-<img title="" src="file:///d:/Users/Lenovo/Documents/Tencent%20Files/3078158560/Image/C2C/cdc280f31171d0d35e493da19720e128.jpg" alt="cdc280f31171d0d35e493da19720e128" style="zoom:200%;">
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042215892.png)
+
 
 在同一目录下的文件，如果想要相互找到彼此的话，可以直接使用文件名，不用前面再加一个“./”
 
@@ -379,7 +381,8 @@ OK
 
 ```
 
-<img title="" src="file:///d:/Users/Lenovo/Documents/Tencent%20Files/3078158560/Image/C2C/7240a05a2b5fe75b84d46ab10c93ab95.jpg" alt="7240a05a2b5fe75b84d46ab10c93ab95" style="zoom:25%;">
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042216818.png)
+
 
 本质上，assertTrue可以代替这些所有的方法。
 
@@ -553,13 +556,15 @@ func2(b)     # bb
 
 魔术方法在类或对象的某些事件发生时会自动执行。若想根据自己的程序定制特殊功能的类，那么就需要对这些方法进行重写。
 
-<img src="file:///C:/Users/Lenovo/Pictures/Screenshots/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-01%20165614.png" title="" alt="" style="zoom:50%;">
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042216429.png)
+
 
 ###### 举例：`__str__`
 
 打印对象默认返回：类型名+对象内存地址，如下：
 
-<img title="" src="file:///C:/Users/Lenovo/Pictures/Screenshots/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-01%20170203.png" alt="" style="zoom:67%;">
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042217252.png)
+
 
 子类往往重写`__str__`，用于返回对象的属性信息
 
@@ -592,7 +597,7 @@ print(a, id(a), hex(id(a)))
 
 ###### 再举例：`__eq__`
 
-“==”是一个比较运算符，对象之间进行比较时，比较的是内存地址是否相等，即判断是不是同一个对象。重写`__eq__`方法，可以用于判断对象内容/属性是否相等。
+`"=="`是一个比较运算符，对象之间进行比较时，比较的是内存地址是否相等，即判断是不是同一个对象。重写`__eq__`方法，可以用于判断对象内容/属性是否相等。
 
 *（题外话：* `isinstance(a, A)`：判断 a 是不是 A 类型
 
@@ -695,7 +700,8 @@ print("排序后".center(32, "-"))  # 输出：--------------排序后----------
 
 分析需求，理清关系，明确功能 --> 思路分析：主程序文件，行为函数文件，工具函数文件，数据储存设计 --> 代码实现
 
-<img src="file:///C:/Users/Lenovo/Pictures/Screenshots/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-02%20094019.png" title="" alt="" style="zoom:50%;">
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042220343.png)
+
 
 ##### OOP分层模式（房屋出租系统）
 
@@ -707,9 +713,8 @@ print("排序后".center(32, "-"))  # 输出：--------------排序后----------
 
 * 数据层 
 
-<img src="file:///C:/Users/Lenovo/Pictures/Screenshots/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-02%20104140.png" title="" alt="" style="zoom:50%;">
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042220785.png)
 
-<img src="file:///C:/Users/Lenovo/Pictures/Screenshots/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-02%20104501.png" title="" alt="" style="zoom:50%;">
 
 
 
