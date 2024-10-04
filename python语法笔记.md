@@ -118,7 +118,7 @@ def fun2(a, b):            #无需说明参数类型，也无需说明函数类�
 
 ##### python内置函数
 
-![](file:///C:/Users/Lenovo/Pictures/Screenshots/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-08%20143720.png)
+![](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410042212762.png)
 
 
 ##### 引入模块
