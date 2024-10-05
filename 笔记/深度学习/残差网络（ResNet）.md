@@ -30,7 +30,11 @@ ResNet细节如下：
 
 ResNet块
 先是通过步幅为2的卷积层，将输入的矩阵的高宽减半。后面接多个步幅为1的ResNet块，是高宽保持不变，重复多次进行学习。
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410052331149.png)
 
+ResNet架构：
 
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410052333668.png)
 
+与VGG和GoogleNet的总体架构类似，但替换成了ResNet块。
 
