@@ -1,3 +1,7 @@
+> 课程：李沐《动手学深度学习》
+> 课程视频：[29 残差网络 ResNet【动手学深度学习v2】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1bV41177ap/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=327f3e87e497fe83b3515199232efd15)
+
+
 我们总是企图加深神经网络来得到更精确的结果，但是加深不一定总能带来好处。随着网络的不断加深，函数的复杂度不断增大，其覆盖的范围不断扩大，但是，它不受控制，它扩大的方向可能并不是接近最优值的方向。
 
 比如，假设我们所要寻找的最优值其实就在我们目前函数覆盖范围的上方，但是我神经网络的加深却是往下方不断加深的，这就逐渐偏离了正确方向。不断地加深反而越来越差。
@@ -14,5 +18,17 @@
 
 ResNet细节如下：
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410050953693.png)
+由是否含有‘1×1卷积层’分为两种实现。
+
+为什么加入一个1×1的卷积层呢？
+`x`在经过`g(x)`层的变换后，它的输出通道数与`x`原本的输出通道数可能是不一样的，不一样的话就无法和原来的`x`进行相加，就无法得到`f(x)`。所以，‘1×1卷积层’的作用就是变换通道数。
+*对于输入输出通道相关知识有点忘记的话，可以回顾多层感知机的知识：[machine-learning/代码实现/pytorch01.ipynb at master · HeXioahei/machine-learning (github.com)](https://github.com/HeXioahei/machine-learning/blob/master/%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/pytorch01.ipynb)*
+
+不同的残差块：
+三个层——卷积层、批量规范化层、激活函数层，`x`可以随意插入到任意层之间，这样就可以产生不同的残差块，理论上来说这些组合都是合理的，只是要根据具体需求来看是否有实际便利作用。
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410051022201.png)
+
+
+
 
 
