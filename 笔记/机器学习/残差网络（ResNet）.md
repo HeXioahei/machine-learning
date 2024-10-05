@@ -8,5 +8,6 @@
 
 那么具体是如何实现的呢？
 其简易流程图如下：
-![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410050929434.png)
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410050935632.png)
+这是ResNet的核心——残差块。概括来说就是`f(x)=x+g(x)`这样的一个结构。
 
