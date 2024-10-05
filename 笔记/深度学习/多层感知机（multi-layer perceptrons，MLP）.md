@@ -1,3 +1,4 @@
+> 课程：李沐《动手学深度学习》
 # 感知机
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410051033538.png)
 先取内积，在加上偏移量，再放入一个函数中，最终只有两个结果。可见，他是一个二分类问题（不一定是1和0，也可以是1和-1）
