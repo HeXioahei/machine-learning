@@ -20,4 +20,8 @@
 * 首先，按照这个教程下载好CUDA和cudnn：[［超级详细］如何在深度学习训练模型过程中使用GPU加速_电脑中如何使用gpu跑模型-CSDN博客](https://blog.csdn.net/qq_52730883/article/details/130650143#:~:text=%E5%89%8D%E8%A8%80.%20%E5%9C%A8%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0)
 * 然后，根据这篇文章[pytorch安装: cuda、cudatoolkit、torch版本对照 - coffeeMA - 博客园 (cnblogs.com)](https://www.cnblogs.com/jacexu016/p/18409959#:~:text=%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%20nvidi)所说的版本的适配，创建新的python环境（如果原环境下python版本本身就适配，就不用创建新的环境了），去官网复制对应版本的pytorch下载命令，到anaconda prompt下运行（如果下一半就断掉，那就重新运行）。
 * 最后检测是否配置成功：
-	在python终端（注意，是终端，就是黑黑的窗口里）输入如下命令：
+	在python终端（注意，是终端，就是黑黑的窗口里）输入如下命令：![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062119411.png)
+	版本的结果若是cu，则说明是gpu，最终输出true，则说明可以成功调用gpu。
+
+另外，我的显卡型号为
+所以，这么一看，其实正确的步骤过程也没有很复杂。
