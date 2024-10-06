@@ -11,8 +11,20 @@
 
 ## 重新考察全连接层
 全连接层将一维的输入和输出变形为矩阵（矩阵具有宽度和高度，是二维的），而权重要把输入和输出联系起来，所以它与输入数据在输入矩阵中的位置和输出数据在输出矩阵中的位置都有关系，而输入和输出现在都是二维的矩阵，都由两个变量（行位和列位）来决定位置，所以相应的，权重就与四个变量有关，所以权重变成了一个四维的张量（从输入(h,w)到输出(h',w')）。
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062232473.png)
 
-（戛然而止）
+## 两个原则的实现
+* ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062231639.png)
+* ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062231242.png)
+## 总结
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062236871.png)
+
+# 卷积层
+## 二维交叉相关
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062236469.png)
+
+
+
 
 ---
 > 课程：b站吴恩达深度学习课程
