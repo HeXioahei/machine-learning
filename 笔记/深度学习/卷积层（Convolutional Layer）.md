@@ -26,8 +26,13 @@
 ## 二维卷积层
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062245751.png)
 
+## 交叉相关vs卷积
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062248601.png)
 
-
+## 一维和三维交叉相关
+* 一维：文本、语言、时序序列
+* 二维：图片
+* 三维：视频、医学图像、气象地图
 
 ---
 > 课程：b站吴恩达深度学习课程
