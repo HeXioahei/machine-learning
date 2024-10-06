@@ -24,6 +24,7 @@
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062236469.png)
 
 ## 二维卷积层
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410062245751.png)
 
 
 
