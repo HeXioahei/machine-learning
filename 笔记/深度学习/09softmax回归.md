@@ -11,3 +11,5 @@ softmax其实用来分类的。
 
 # 从回归到分类——均方损失
 先对类别进行一位有效编码
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410082056733.png)
+再用均方损失来训练
