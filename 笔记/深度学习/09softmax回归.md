@@ -22,3 +22,4 @@ oy是对正确类的置信度，它远大于对其他类别的置信度oi。也�
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410082123479.png)
 
 # softmax和交叉熵损失
+![屏幕截图 2024-10-08 212327.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410082126003.png)
