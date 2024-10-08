@@ -1,4 +1,4 @@
-> 课程：李沐《动手学深度学习》
+> 课程：李沐《动手学深度学习》and  哔哩哔哩up主“FunInCode”【数之道】系列视频
 # 感知机
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410051033538.png)
 先取内积，在加上偏移量，再放入一个函数中，最终只有两个结果。可见，他是一个二分类问题（不一定是1和0，也可以是1和-1）
@@ -89,3 +89,6 @@ Leaky ReLU 和 ReLU 差不多，而且，它不存在梯度消失问题。
 
 # 代码实现
 [machine-learning/代码实现/MLP.ipynb at master · HeXioahei/machine-learning (github.com)](https://github.com/HeXioahei/machine-learning/blob/master/%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/MLP.ipynb)
+
+# 用excel模拟神经网络学习过程（阿mazing）
+[【数之道 07】只需5分钟，Excel中构建神经网络模型_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1NK4y1T71u/?spm_id_from=333.788&vd_source=327f3e87e497fe83b3515199232efd15)
