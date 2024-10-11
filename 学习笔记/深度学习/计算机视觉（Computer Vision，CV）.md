@@ -1,3 +1,4 @@
+> B站吴恩达深度学习课程
 # CV概述
 ## CV解决的问题
 * 图片分类（Image Classification）
@@ -23,6 +24,7 @@
 	![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410111617931.png)
 
 ## 如何进行边缘检测呢
+### 示例
 例如，对于一张6×6的灰度图片，因为它是灰度图片，所以颜色通道数为1，所以，它是一个64×64×1的矩阵。如下图所示：
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410111622075.png)（图像矩阵）
 
@@ -36,4 +38,10 @@
 
 依次类推，移动蓝色方块，不断计算出4×4矩阵中所有的值。结果如下：
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410111636994.png)
+
+### 为什么这样的构造和计算可以检测边缘呢
+我们可以用一个极端的例子来说明，如下：
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410111645891.png)
+
+数值越大的地方就越亮。这么一看就一目了然啦！
 
