@@ -1,0 +1,2 @@
+[BN层详解-CSDN博客](https://blog.csdn.net/qq_38900441/article/details/106047525?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ECtr-1-106047525-blog-112853861.235%5Ev43%5Epc_blog_bottom_relevance_base5&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ECtr-1-106047525-blog-112853861.235%5Ev43%5Epc_blog_bottom_relevance_base5&utm_relevant_index=2)
+[BN(Batch Normalization)层原理与作用_bn层的原理和作用-CSDN博客](https://blog.csdn.net/chaipp0607/article/details/112853861)
