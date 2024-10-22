@@ -35,7 +35,7 @@ oy是对正确类的置信度，它远大于对其他类别的置信度oi。也�
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410222029052.png)
 
 虽然softmax是一个非线性函数，但是softmax回归仍然是一个线性模型。
-# softmax和交叉熵损失
+# softmax和交叉熵损失（cross-entropy loss）
 ![屏幕截图 2024-10-08 212327.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202410082126003.png)
 
 
