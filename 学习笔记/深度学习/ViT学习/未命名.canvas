@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"3cb33453e34012ad","type":"text","text":"一张二维图片","x":-337,"y":60,"width":160,"height":50},
+		{"id":"9af21c6c6333d11c","type":"text","text":"向量","x":-57,"y":60,"width":125,"height":50},
+		{"id":"ffc5df71d47566ae","x":-215,"y":-40,"width":440,"height":60,"type":"text","text":"Linear Projection of Flattened Patches(embedding层)"}
+	],
+	"edges":[
+		{"id":"1265d982ffc3dcd4","fromNode":"3cb33453e34012ad","fromSide":"right","toNode":"9af21c6c6333d11c","toSide":"left","label":"展平"},
+		{"id":"fa02c02ebadec8fa","fromNode":"9af21c6c6333d11c","fromSide":"top","toNode":"ffc5df71d47566ae","toSide":"bottom"}
+	]
+}
