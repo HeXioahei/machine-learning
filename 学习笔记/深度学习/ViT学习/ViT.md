@@ -25,3 +25,7 @@ transformer encoder 层就是将encoder block 堆叠 L 层得到的。在encoder
 而MLP Head层是由一个Linear层构成的，如果数据集很大的话，也可能是Linear+tanh+Linear三个部分。
 
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411071513361.png)
+
+还有一种混合模型HyBrid（cnn+transformer）。在数据较小的时候，混合模型的精度会更高一些，在数据大的时候，ViT的效果会比HyBrid好。
+
+博主gihub：WZMIAOMIAO.
