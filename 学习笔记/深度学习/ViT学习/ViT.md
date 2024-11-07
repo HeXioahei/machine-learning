@@ -10,4 +10,4 @@
 
 经过embedding层之后，就变成了`[196,768]`的二维矩阵，也即tokens序列。再加上class token，就变成了`[197,768]`。
 
-再通过position embedding，叠加position参数，仍然是`[197,768]`。
+再通过position embedding，叠加position参数，（直接进行相加操作），仍然是`[197,768]`。
