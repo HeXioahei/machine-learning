@@ -11,3 +11,9 @@
 经过embedding层之后，就变成了`[196,768]`的二维矩阵，也即tokens序列。再加上class token，就变成了`[197,768]`。
 
 再通过position embedding，叠加position参数，（直接进行相加操作），仍然是`[197,768]`。
+
+用余弦相似度来求位置相关性，得到位置编码。（这里还是没看懂）
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411070954790.png)
+
+transformer encoder 层就是将encoder block 堆叠 L 层得到的。
