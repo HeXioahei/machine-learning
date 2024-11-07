@@ -16,4 +16,4 @@
 
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411070954790.png)
 
-transformer encoder 层就是将encoder block 堆叠 L 层得到的。在encoder block中，先是通过了layer norm 层，进行标准化处理。
+transformer encoder 层就是将encoder block 堆叠 L 层得到的。在encoder block中，先是通过了layer norm 层，进行标准化处理。然后通过muti-head层，
