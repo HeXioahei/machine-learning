@@ -8,9 +8,11 @@
 
 再进行扁平化处理（Flatten）拉长为一个向量`[1,196,768]`，768是卷积中的通道数个数。196即为还没加上class token时的token数。
 
-经过embedding层之后，就变成了`[196,768]`的二维矩阵，也即tokens序列。再加上class token，就变成了`[197,768]`。
+至此，patch embedding就完成了。
 
-再通过position embedding，叠加position参数，（直接进行相加操作），仍然是`[197,768]`。
+经过patch embedding层之后，就变成了`[196,768]`的二维矩阵，也即tokens序列。再加上class token，就变成了`[197,768]`。
+
+再通过position embedding层，叠加position参数（可学习的参数），（直接进行相加操作），仍然是`[197,768]`。
 
 用余弦相似度来求位置相关性，得到位置编码。（这里还是没看懂）
 
