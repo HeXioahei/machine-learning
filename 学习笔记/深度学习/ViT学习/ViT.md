@@ -23,3 +23,5 @@ transformer encoder 层就是将encoder block 堆叠 L 层得到的。在encoder
 其实，在transformer encoder前还有个dropout层，后有一个layer norm层。
 
 而MLP Head层是由一个Linear层构成的，如果数据集很大的话，也可能是Linear+tanh+Linear三个部分。
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411071513361.png)
