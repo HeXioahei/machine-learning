@@ -93,6 +93,7 @@ W只关心矩阵a的宽度，因为W的高度要和a的宽度相同才能进行�
 * bert
 * speech（语音方面）：truncated self-attention
 * image（图像方面）：self-attention GAN、DEtection Transformer(DETR)
+* gragh（图，关系图）：
 
 # Self-attention vs CNN
 
@@ -104,3 +105,6 @@ CNN弹性比较差，无法学习更多的资料，所以不适合大数据。se
 
 # Self-attention vs RNN
 
+RNN是串行的，它只考虑了它的前一个输入或后一个输入。而SA是并行的，考虑了整个序列的输入。
+
+文章解析：https://arxiv.org/abs/2006.16236
