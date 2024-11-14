@@ -97,3 +97,10 @@ W只关心矩阵a的宽度，因为W的高度要和a的宽度相同才能进行�
 # Self-attention vs CNN
 
 CNN其实是简化版的self-attention。有一篇文章有对二者进行详细的对比分析：https://arxiv.org/abs/1911.03584。
+
+CNN弹性比较差，无法学习更多的资料，所以不适合大数据。self-attention弹性大，适合大数据的训练。
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142220419.png)
+
+# Self-attention vs RNN
+
