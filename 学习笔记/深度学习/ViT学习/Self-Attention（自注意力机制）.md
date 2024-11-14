@@ -53,8 +53,14 @@ W只关心矩阵a的宽度，因为W的高度要和a的宽度相同才能进行�
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142051815.png)
 
 
-这样，就可以直接得到注意力分数矩阵了。
+这样，就可以直接得到注意力分数矩阵了。在soft-max层里，其实还有对q和k点乘的结果做一个缩放。具体公式如下：
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142100857.png)
+
+其中，dk就是向量q和k的长度。
 
 然后，再和矩阵v进行点乘。如下：
 
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142056589.png)
 
+细节，矩阵v要放在前面，这样才能保证列与行的对应。
