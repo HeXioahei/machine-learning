@@ -1,3 +1,4 @@
+# Self-Attention
 每个a都是一个vector（向量），所有的a构成一个序列。
 
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411141900464.png)
@@ -64,3 +65,9 @@ W只关心矩阵a的宽度，因为W的高度要和a的宽度相同才能进行�
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142056589.png)
 
 细节，矩阵v要放在前面，这样才能保证列与行的对应。
+
+整合全部过程，概括如下：
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142104426.png)
+
+# Multi-head Self-Attention
