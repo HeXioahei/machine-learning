@@ -84,4 +84,16 @@ W只关心矩阵a的宽度，因为W的高度要和a的宽度相同才能进行�
 # Position Encoding（位置编码）
 学到这我们可以发现，self-attention并不关心位置，里面都没有位置信息。但是，有时，单个序列中每个输入数据的位置信息对于输出来说也是至关重要的。比如，一句英文句子就是一个序列，每个单词就是序列中的一个向量。我们可以通过通过单词的位置来判断它的词性，比如动词一般就不会出现在第一个位置。
 
-所以，我们要做的就是在ai生成qi之前，给它加上一个位置编码ei。
+所以，我们要做的就是在ai生成qi之前，给它加上一个位置编码ei向量。这个位置编码ei要如何得到呢？目前比较常用的是通过sin和cos函数来得到，因为效果好。但是我们也可以自己尝试不同的方式，然后比较比较效果看看（就是在“炼丹”啦），甚至可以用一个卷积网络来特地生成ei。如下几个示例：
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142202003.png)
+
+# self-attention的应用
+* transformer
+* bert
+* speech（语音方面）：truncated self-attention
+* image（图像方面）：self-attention GAN、DEtection Transformer(DETR)
+
+# Self-attention vs CNN
+
+CNN其实是简化版的self-attention。有一篇文章有对二者进行详细的对比分析：https://arxiv.org/abs/1911.03584。
