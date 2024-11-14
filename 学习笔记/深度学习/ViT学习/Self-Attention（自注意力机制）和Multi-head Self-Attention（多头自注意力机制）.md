@@ -108,3 +108,6 @@ CNN弹性比较差，无法学习更多的资料，所以不适合大数据。se
 RNN是串行的，它只考虑了它的前一个输入或后一个输入。而SA是并行的，考虑了整个序列的输入。
 
 文章解析：https://arxiv.org/abs/2006.16236
+
+# To Learn More
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142232187.png)
