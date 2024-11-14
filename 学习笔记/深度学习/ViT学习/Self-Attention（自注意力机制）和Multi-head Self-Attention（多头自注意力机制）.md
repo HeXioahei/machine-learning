@@ -71,3 +71,13 @@ W只关心矩阵a的宽度，因为W的高度要和a的宽度相同才能进行�
 ![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142104426.png)
 
 # Multi-head Self-Attention
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142127996.png)
+
+多头注意力机制其实和单头的区别不是很大，其主要是对每一个向量q、k、v再进行了进一步的划分。如q，通过乘以矩阵Wq1和Wq2分别得到向量qi1和qi2。然后1的和1的做运算，2的和2的做运算，也就对应着两个head，这样，对于每个向量a，就可以得到两个输出向量b（bi1和bi2）。如下：
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142132019.png)
+
+然后再通过一个矩阵Wo来将二者合为一个输出向量bi。
+
+![image.png](https://youki-1330066034.cos.ap-guangzhou.myqcloud.com/machine-learning/202411142133036.png)
+
