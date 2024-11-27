@@ -120,3 +120,11 @@ tensor([[23, 34],
         [31, 46]])
 >>>
 ```
+
+# expand()
+```
+cls_token = self.cls_token.expand(x.shape[0], -1, -1) 
+# 将类token扩展到batch_size维度上
+# -1表示该位置维度大小不变，具体数值代表该位置的维度大小变成这个具体数值大小。
+# shape[0]表示取x的第一维度的大小。
+```
